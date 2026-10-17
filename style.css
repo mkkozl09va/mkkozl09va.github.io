@@ -1,0 +1,157 @@
+/* Базовые настройки для красивого фона */
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    background-color: #FCE4EC; /* Ваш нежно-розовый фон */
+    color: #301934; /* Ваш глубокий темный цвет текста */
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Красивая акцентная шапка сайта */
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #4A148C 0%, #301934 100%); /* Глубокий фиолетовый градиент */
+    color: #FCE4EC; /* Розовый текст внутри шапки для контраста */
+    padding: 50px 30px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 25px rgba(48, 25, 52, 0.15);
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+    color: #FFFFFF; /* Белоснежное яркое имя */
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Стили для карточек секций */
+section {
+    background: #FFFFFF; /* Белоснежные карточки на розовом фоне смотрятся очень чисто */
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(48, 25, 52, 0.04); /* Легкая фиолетовая тень */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #301934; /* Заголовки вашего фирменного цвета */
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Декоративная полоса под заголовками */
+h2::after {
+    content: '';
+    display: block;
+    width: 84px;
+    height: 4px;
+    background: #8E24AA; /* Красивый ягодный акцент вместо синего */
+    border-radius: 2px;
+    margin-top: 6px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Сетка для блоков навыков */
+.skills-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.skills-card {
+    flex: 1;
+    background: #FFF8FA; /* Тонкий розоватый оттенок внутри карточек */
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 4px solid #8E24AA; /* Ягодная полоска слева */
+}
+
+.skills-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: #301934;
+}
+
+.skills-card ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.skills-card li {
+    margin-bottom: 8px;
+}
+
+/* Стили для пасхалки */
+.joke-section {
+    background: #FFF3F6; 
+    border: 1px solid #F8BBD0;
+}
+
+.quote {
+    font-style: italic;
+    color: #4A148C;
+}
+
+.status-badge {
+    display: inline-block;
+    background: #F8BBD0;
+    color: #4A148C;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+/* Интерактивные кнопки контактов */
+.buttons-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.telegram {
+    background-color: #0088cc;
+    color: white;
+}
+
+.email {
+    background-color: #301934; /* Кнопка почты цвета вашего текста */
+    color: white;
+}
+
+/* Эффект при наведении на кнопки */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(48, 25, 52, 0.2);
+}
+
